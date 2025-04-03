@@ -1,6 +1,6 @@
 # zsh-dce plugin
 
-The `zsh-dce` plugin is a Zsh utility that helps you quickly navigate to project directories with autocomplete support.
+The `zsh-dce` plugin is a Zsh utility that helps you quickly navigate to your docker containers without losing the current folder context.
 
 ## Installation
 
@@ -47,7 +47,7 @@ Once the plugin is installed, you can use it as follows:
 Use the `dce` command followed by the project name:
 
 ```sh
-dce <container_name>
+dce <container_name> <command>
 ```
 
 ## Customization
