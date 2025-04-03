@@ -64,7 +64,3 @@ The plugin assumes that your docker-compose.yml is located under `~/dev`. If you
 ```sh
 dce --folder ~/path/to/your/config
 ```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
