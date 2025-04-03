@@ -20,10 +20,17 @@ After cloning the repository, you need to enable the plugin in your Zsh configur
 nano ~/.zshrc
 ```
 
+#### Oh-my-zsh manager
 Find the `plugins` section and add `dce` to the list of plugins:
 
 ```
 plugins=(<other plugins> dce)
+```
+
+#### Manual
+Add the following to your .zshrc:
+```
+source ~/.oh-my-zsh/custom/plugins/dce/dce.plugin.zsh
 ```
 
 ### 3. Reload ZSH configuration
